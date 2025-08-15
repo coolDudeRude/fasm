@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """Assembler for Xonotic StackVM"""
 
 from pathlib import Path

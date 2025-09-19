@@ -213,6 +213,6 @@ with open(cli_arguments.output, "w") as output_file:
     vm_program = ""
 
     for index, instruction in enumerate(instructions):
-        vm_program += f'alias __svm.{index} "{instruction}"\n'
+        vm_program += f'alias vm.rom.{index} "{instruction}"\n'
 
     output_file.write(vm_program)
